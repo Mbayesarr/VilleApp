@@ -12,13 +12,13 @@ const Add = (props) => {
         
     }
     return (
-        <div class="d-grid gap-2 col-6 mx-auto">
+        <div className="d-grid gap-2 col-6 mx-auto">
                <input type="text" 
                     placeholder="Ajouter une ville"
                     className="form-control w-50 mx-auto m-3" 
                     ref={inputville}/>
 
-                 <button class="btn btn-secondary" type="button"
+                 <button className="btn btn-secondary" type="button"
                     onClick={addVille}>Ajouter</button>
             
         </div>
